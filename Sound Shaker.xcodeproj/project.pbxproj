@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5F67771A4697AC00895A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F67761A4697AC00895A4F /* AppDelegate.swift */; };
+		EC5F67791A4697AC00895A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F67781A4697AC00895A4F /* ViewController.swift */; };
+		EC5F677C1A4697AC00895A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5F677A1A4697AC00895A4F /* Main.storyboard */; };
+		EC5F677E1A4697AC00895A4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5F677D1A4697AC00895A4F /* Images.xcassets */; };
+		EC5F67811A4697AC00895A4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5F677F1A4697AC00895A4F /* LaunchScreen.xib */; };
+		EC5F678D1A4697AD00895A4F /* Sound_ShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F678C1A4697AD00895A4F /* Sound_ShakerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5F67871A4697AD00895A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5F67691A4697AC00895A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5F67701A4697AC00895A4F;
+			remoteInfo = "Sound Shaker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5F67711A4697AC00895A4F /* Sound Shaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Shaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5F67751A4697AC00895A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5F67761A4697AC00895A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC5F67781A4697AC00895A4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5F677B1A4697AC00895A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5F677D1A4697AC00895A4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5F67801A4697AC00895A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC5F67861A4697AD00895A4F /* Sound ShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound ShakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5F678B1A4697AD00895A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5F678C1A4697AD00895A4F /* Sound_ShakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_ShakerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5F676E1A4697AC00895A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5F67831A4697AD00895A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5F67681A4697AC00895A4F = {
+			isa = PBXGroup;
+			children = (
+				EC5F67731A4697AC00895A4F /* Sound Shaker */,
+				EC5F67891A4697AD00895A4F /* Sound ShakerTests */,
+				EC5F67721A4697AC00895A4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5F67721A4697AC00895A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F67711A4697AC00895A4F /* Sound Shaker.app */,
+				EC5F67861A4697AD00895A4F /* Sound ShakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5F67731A4697AC00895A4F /* Sound Shaker */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F67761A4697AC00895A4F /* AppDelegate.swift */,
+				EC5F67781A4697AC00895A4F /* ViewController.swift */,
+				EC5F677A1A4697AC00895A4F /* Main.storyboard */,
+				EC5F677D1A4697AC00895A4F /* Images.xcassets */,
+				EC5F677F1A4697AC00895A4F /* LaunchScreen.xib */,
+				EC5F67741A4697AC00895A4F /* Supporting Files */,
+			);
+			path = "Sound Shaker";
+			sourceTree = "<group>";
+		};
+		EC5F67741A4697AC00895A4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F67751A4697AC00895A4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5F67891A4697AD00895A4F /* Sound ShakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F678C1A4697AD00895A4F /* Sound_ShakerTests.swift */,
+				EC5F678A1A4697AD00895A4F /* Supporting Files */,
+			);
+			path = "Sound ShakerTests";
+			sourceTree = "<group>";
+		};
+		EC5F678A1A4697AD00895A4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F678B1A4697AD00895A4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5F67701A4697AC00895A4F /* Sound Shaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5F67901A4697AD00895A4F /* Build configuration list for PBXNativeTarget "Sound Shaker" */;
+			buildPhases = (
+				EC5F676D1A4697AC00895A4F /* Sources */,
+				EC5F676E1A4697AC00895A4F /* Frameworks */,
+				EC5F676F1A4697AC00895A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sound Shaker";
+			productName = "Sound Shaker";
+			productReference = EC5F67711A4697AC00895A4F /* Sound Shaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5F67851A4697AD00895A4F /* Sound ShakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5F67931A4697AD00895A4F /* Build configuration list for PBXNativeTarget "Sound ShakerTests" */;
+			buildPhases = (
+				EC5F67821A4697AD00895A4F /* Sources */,
+				EC5F67831A4697AD00895A4F /* Frameworks */,
+				EC5F67841A4697AD00895A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5F67881A4697AD00895A4F /* PBXTargetDependency */,
+			);
+			name = "Sound ShakerTests";
+			productName = "Sound ShakerTests";
+			productReference = EC5F67861A4697AD00895A4F /* Sound ShakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5F67691A4697AC00895A4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Patrick Landin";
+				TargetAttributes = {
+					EC5F67701A4697AC00895A4F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC5F67851A4697AD00895A4F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EC5F67701A4697AC00895A4F;
+					};
+				};
+			};
+			buildConfigurationList = EC5F676C1A4697AC00895A4F /* Build configuration list for PBXProject "Sound Shaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5F67681A4697AC00895A4F;
+			productRefGroup = EC5F67721A4697AC00895A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5F67701A4697AC00895A4F /* Sound Shaker */,
+				EC5F67851A4697AD00895A4F /* Sound ShakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5F676F1A4697AC00895A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F677C1A4697AC00895A4F /* Main.storyboard in Resources */,
+				EC5F67811A4697AC00895A4F /* LaunchScreen.xib in Resources */,
+				EC5F677E1A4697AC00895A4F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5F67841A4697AD00895A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5F676D1A4697AC00895A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F67791A4697AC00895A4F /* ViewController.swift in Sources */,
+				EC5F67771A4697AC00895A4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5F67821A4697AD00895A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F678D1A4697AD00895A4F /* Sound_ShakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5F67881A4697AD00895A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5F67701A4697AC00895A4F /* Sound Shaker */;
+			targetProxy = EC5F67871A4697AD00895A4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5F677A1A4697AC00895A4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5F677B1A4697AC00895A4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5F677F1A4697AC00895A4F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5F67801A4697AC00895A4F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5F678E1A4697AD00895A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC5F678F1A4697AD00895A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5F67911A4697AD00895A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Shaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5F67921A4697AD00895A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Shaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC5F67941A4697AD00895A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sound ShakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound Shaker.app/Sound Shaker";
+			};
+			name = Debug;
+		};
+		EC5F67951A4697AD00895A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sound ShakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound Shaker.app/Sound Shaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5F676C1A4697AC00895A4F /* Build configuration list for PBXProject "Sound Shaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5F678E1A4697AD00895A4F /* Debug */,
+				EC5F678F1A4697AD00895A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5F67901A4697AD00895A4F /* Build configuration list for PBXNativeTarget "Sound Shaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5F67911A4697AD00895A4F /* Debug */,
+				EC5F67921A4697AD00895A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5F67931A4697AD00895A4F /* Build configuration list for PBXNativeTarget "Sound ShakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5F67941A4697AD00895A4F /* Debug */,
+				EC5F67951A4697AD00895A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5F67691A4697AC00895A4F /* Project object */;
+}
