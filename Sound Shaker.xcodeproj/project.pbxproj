@@ -13,6 +13,17 @@
 		EC5F677E1A4697AC00895A4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5F677D1A4697AC00895A4F /* Images.xcassets */; };
 		EC5F67811A4697AC00895A4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5F677F1A4697AC00895A4F /* LaunchScreen.xib */; };
 		EC5F678D1A4697AD00895A4F /* Sound_ShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F678C1A4697AD00895A4F /* Sound_ShakerTests.swift */; };
+		EC5F67A11A46B7A300895A4F /* BeanFart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F67971A46B7A300895A4F /* BeanFart.mp3 */; };
+		EC5F67A21A46B7A300895A4F /* GirlLaugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F67981A46B7A300895A4F /* GirlLaugh.mp3 */; };
+		EC5F67A31A46B7A300895A4F /* GolfBall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F67991A46B7A300895A4F /* GolfBall.mp3 */; };
+		EC5F67A41A46B7A300895A4F /* IFarted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F679A1A46B7A300895A4F /* IFarted.mp3 */; };
+		EC5F67A51A46B7A300895A4F /* IguanaWaterFart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F679B1A46B7A300895A4F /* IguanaWaterFart.mp3 */; };
+		EC5F67A61A46B7A300895A4F /* KidLaugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F679C1A46B7A300895A4F /* KidLaugh.mp3 */; };
+		EC5F67A71A46B7A300895A4F /* Pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F679D1A46B7A300895A4F /* Pew.mp3 */; };
+		EC5F67A81A46B7A300895A4F /* UhOhFart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F679E1A46B7A300895A4F /* UhOhFart.mp3 */; };
+		EC5F67A91A46B7A300895A4F /* Uuuuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F679F1A46B7A300895A4F /* Uuuuu.mp3 */; };
+		EC5F67AA1A46B7A300895A4F /* WhatYouEatin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F67A01A46B7A300895A4F /* WhatYouEatin.mp3 */; };
+		EC5F67AC1A46BA6C00895A4F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F67AB1A46BA6C00895A4F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		EC5F67861A4697AD00895A4F /* Sound ShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound ShakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5F678B1A4697AD00895A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5F678C1A4697AD00895A4F /* Sound_ShakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_ShakerTests.swift; sourceTree = "<group>"; };
+		EC5F67971A46B7A300895A4F /* BeanFart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BeanFart.mp3; sourceTree = "<group>"; };
+		EC5F67981A46B7A300895A4F /* GirlLaugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GirlLaugh.mp3; sourceTree = "<group>"; };
+		EC5F67991A46B7A300895A4F /* GolfBall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GolfBall.mp3; sourceTree = "<group>"; };
+		EC5F679A1A46B7A300895A4F /* IFarted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IFarted.mp3; sourceTree = "<group>"; };
+		EC5F679B1A46B7A300895A4F /* IguanaWaterFart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IguanaWaterFart.mp3; sourceTree = "<group>"; };
+		EC5F679C1A46B7A300895A4F /* KidLaugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KidLaugh.mp3; sourceTree = "<group>"; };
+		EC5F679D1A46B7A300895A4F /* Pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pew.mp3; sourceTree = "<group>"; };
+		EC5F679E1A46B7A300895A4F /* UhOhFart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UhOhFart.mp3; sourceTree = "<group>"; };
+		EC5F679F1A46B7A300895A4F /* Uuuuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Uuuuu.mp3; sourceTree = "<group>"; };
+		EC5F67A01A46B7A300895A4F /* WhatYouEatin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhatYouEatin.mp3; sourceTree = "<group>"; };
+		EC5F67AB1A46BA6C00895A4F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5F67AC1A46BA6C00895A4F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +82,7 @@
 		EC5F67681A4697AC00895A4F = {
 			isa = PBXGroup;
 			children = (
+				EC5F67AB1A46BA6C00895A4F /* AVFoundation.framework */,
 				EC5F67731A4697AC00895A4F /* Sound Shaker */,
 				EC5F67891A4697AD00895A4F /* Sound ShakerTests */,
 				EC5F67721A4697AC00895A4F /* Products */,
@@ -81,6 +105,7 @@
 				EC5F67781A4697AC00895A4F /* ViewController.swift */,
 				EC5F677A1A4697AC00895A4F /* Main.storyboard */,
 				EC5F677D1A4697AC00895A4F /* Images.xcassets */,
+				EC5F67961A46B7A300895A4F /* Funny Sounds */,
 				EC5F677F1A4697AC00895A4F /* LaunchScreen.xib */,
 				EC5F67741A4697AC00895A4F /* Supporting Files */,
 			);
@@ -110,6 +135,24 @@
 				EC5F678B1A4697AD00895A4F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5F67961A46B7A300895A4F /* Funny Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F67971A46B7A300895A4F /* BeanFart.mp3 */,
+				EC5F67981A46B7A300895A4F /* GirlLaugh.mp3 */,
+				EC5F67991A46B7A300895A4F /* GolfBall.mp3 */,
+				EC5F679A1A46B7A300895A4F /* IFarted.mp3 */,
+				EC5F679B1A46B7A300895A4F /* IguanaWaterFart.mp3 */,
+				EC5F679C1A46B7A300895A4F /* KidLaugh.mp3 */,
+				EC5F679D1A46B7A300895A4F /* Pew.mp3 */,
+				EC5F679E1A46B7A300895A4F /* UhOhFart.mp3 */,
+				EC5F679F1A46B7A300895A4F /* Uuuuu.mp3 */,
+				EC5F67A01A46B7A300895A4F /* WhatYouEatin.mp3 */,
+			);
+			name = "Funny Sounds";
+			path = "../../../../Music/Funny Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +235,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5F67A41A46B7A300895A4F /* IFarted.mp3 in Resources */,
+				EC5F67AA1A46B7A300895A4F /* WhatYouEatin.mp3 in Resources */,
 				EC5F677C1A4697AC00895A4F /* Main.storyboard in Resources */,
+				EC5F67A11A46B7A300895A4F /* BeanFart.mp3 in Resources */,
+				EC5F67A61A46B7A300895A4F /* KidLaugh.mp3 in Resources */,
+				EC5F67A91A46B7A300895A4F /* Uuuuu.mp3 in Resources */,
+				EC5F67A81A46B7A300895A4F /* UhOhFart.mp3 in Resources */,
 				EC5F67811A4697AC00895A4F /* LaunchScreen.xib in Resources */,
+				EC5F67A71A46B7A300895A4F /* Pew.mp3 in Resources */,
 				EC5F677E1A4697AC00895A4F /* Images.xcassets in Resources */,
+				EC5F67A21A46B7A300895A4F /* GirlLaugh.mp3 in Resources */,
+				EC5F67A51A46B7A300895A4F /* IguanaWaterFart.mp3 in Resources */,
+				EC5F67A31A46B7A300895A4F /* GolfBall.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
